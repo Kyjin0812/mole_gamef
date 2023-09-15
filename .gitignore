@@ -8,3 +8,6 @@ out
 gen
 .gradle
 build
+src/main/java/BouncingBalls
+src/main/java/com.example.java
+src/main/java/ThreadSynchronization
