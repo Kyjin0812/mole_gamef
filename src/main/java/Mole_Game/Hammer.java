@@ -5,12 +5,13 @@ import java.awt.*;
 
 class Hammer {
     int x, y;
+    Boolean smash_state = false;
     Image img;
 
     Hammer(int x, int y) {
         this.x = x;
         this.y = y;
-        ImageIcon icon = new ImageIcon("src\\main\\java\\Mole_Game\\hammer.png");
+        ImageIcon icon = new ImageIcon("src\\main\\java\\Mole_Game\\hammer2.png");
         img = icon.getImage();
     }
 
@@ -47,12 +48,14 @@ class Hammer {
     }
 
     public void smash() {
-        ImageIcon icon = new ImageIcon("src\\main\\java\\Mole_Game\\smash.png");
+        ImageIcon icon = new ImageIcon("src\\main\\java\\Mole_Game\\smash2.png");
         img = icon.getImage();
+        smash_state = true;
     }
 
     public void return_hammer() {
-        ImageIcon icon = new ImageIcon("src\\main\\java\\Mole_Game\\hammer.png");
+        ImageIcon icon = new ImageIcon("src\\main\\java\\Mole_Game\\hammer2.png");
         img = icon.getImage();
+        smash_state = false;
     }
 }

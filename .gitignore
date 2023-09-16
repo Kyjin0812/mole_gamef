@@ -66,4 +66,15 @@ gen
 .gradle
 build
 src/main/java/BouncingBalls
+src/main/java/ThreadSynchronization### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gradle
+build
+src/main/java/BouncingBalls
 src/main/java/ThreadSynchronization
